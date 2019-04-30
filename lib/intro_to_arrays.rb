@@ -8,7 +8,7 @@ def array_with_two_elements
   return thang
 end
 
-def my_first_element(argument)
+def first_element(argument)
   return argument[1]
 end
 
@@ -20,3 +20,7 @@ def third_element(argument)
   return argument[2]
 end
 
+def first_element_with_array_methods(argument)
+  argument.first
+end
+  
